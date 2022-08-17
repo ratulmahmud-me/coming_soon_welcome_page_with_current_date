@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  background: url("../img/bg-1.jpg") top center no-repeat;
+  background: url("../img/bg-3.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -22,7 +22,7 @@ body::before {
   right: 0;
   top: 0;
   bottom: 0;
-  height: 100vh;
+  height: 100%;
   background: rgb(2 10 16 / 70%);
 }
 @media (min-width: 1024px) {
@@ -157,6 +157,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   font-weight: 600;
 }
+/* custom by etech */
+/* @media (max-width: 991){
+  header .countdown div h3 {
+    font-size: 28px !important;
+    margin-bottom: 10px;
+  }
+  #header .countdown div h4 {
+    font-size: 14px !important;
+    font-weight: 500;
+  }
+} */
+/* ------------- */
 @media (max-width: 575px) {
   #header .countdown div {
     width: 70px;
@@ -164,11 +176,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px 8px;
   }
   #header .countdown div h3 {
-    font-size: 28px;
+    font-size: 28px !important;
     margin-bottom: 10px;
   }
   #header .countdown div h4 {
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 500;
   }
 }
